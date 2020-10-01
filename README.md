@@ -3,6 +3,16 @@ rtid-cli
 
 This is CLI Tool for generating Reversed Timestamp ID.  
 
-What is Reversed Timestamp ID?  
+## how to install
+```
+cargo install rtid-cli
+```
 
-<script async class="speakerdeck-embed" data-slide="29" data-id="03258ff00585411e9f00c648e1c472f2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+## usage
+```bash
+$ rtid
+9005597681210150
+```
+
+## What is Reversed Timestamp ID?  
+[SLIDE](https://speakerdeck.com/k1low/serverless-at-geeks-who-drink?slide=29)
