@@ -1,0 +1,20 @@
+[package]
+name = "rtid-cli"
+version = "0.1.0"
+authors = ["sinofseven <em.s.00001@gmail.com>"]
+edition = "2018"
+
+description = "CLI Tool for generating Reversed Timestamp ID"
+repository = "https://github.com/sinofseven/rtid-cli"
+license = "MIT"
+readme = "README.md"
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "rtid"
+path = "src/main.rs"
+
+[dependencies]
+clap = "2.33.3"
