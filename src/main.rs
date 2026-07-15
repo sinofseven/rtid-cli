@@ -1,15 +1,12 @@
-#[macro_use]
-extern crate clap;
-
-use clap::App;
+use clap::Parser;
 use std::time::{SystemTime, UNIX_EPOCH};
 
+#[derive(Parser)]
+#[command(author, version, about)]
+struct Cli {}
+
 fn main() {
-    let _ = App::new("rtid")
-        .author(crate_authors!())
-        .version(crate_version!())
-        .about(crate_description!())
-        .get_matches();
+    let _ = Cli::parse();
 
     if let Err(msg) = run() {
         eprint!("{}", msg);
