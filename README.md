@@ -8,6 +8,12 @@ This is CLI Tool for generating Reversed Timestamp ID.
 cargo install rtid-cli
 ```
 
+### Homebrew
+```bash
+brew tap sinofseven/luciferous-tap
+brew install rtid-cli
+```
+
 ## usage
 ```bash
 $ rtid
