@@ -1,6 +1,6 @@
 [package]
 name = "rtid-cli"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["sinofseven <em.s.00001@gmail.com>"]
 edition = "2018"
 
