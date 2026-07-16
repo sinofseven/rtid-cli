@@ -35,7 +35,8 @@ jobs:
           token: ${{ steps.get-pat.outputs.token }}
           inputs: |
             {
-              "name": "rtid-cli",
+              "name": "rtid",
+              "display_name": "rtid-cli",
               "description": "This is CLI Tool for generating Reversed Timestamp ID.",
               "license_name": "MIT",
               "command_test": "--version",
